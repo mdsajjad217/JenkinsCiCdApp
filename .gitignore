@@ -1,0 +1,72 @@
+## Ignore Visual Studio and build artifacts
+
+# Build results
+bin/
+obj/
+[Ll]og/
+out/
+artifacts/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider project files
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# DotCover
+*.dotCover
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+*.dbmdl
+*.bak
+*.log
+*.vspscc
+*.vssscc
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# Entity Framework
+Migrations/
+
+# Configuration files
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Docker
+**/*.Dockerfile
+docker-compose.*
+docker-compose.override.*
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Publish directory (optional)
+publish/
